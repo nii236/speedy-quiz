@@ -2,28 +2,52 @@ import {ResponseType} from 'app/constants/Enums';
 
 export const AsyncData = [
   {
-    topic: 'In the past 24 hours...',
+    topic: 'During the last drinking session...',
+    subtopic: '',
     content: 'Drank beer?'
   }, {
-    topic: 'In the past 24 hours...',
-    content: 'How much? More than 4 standard drinks?'
+    topic: 'During the last drinking session...',
+    subtopic: 'Beer type?',
+    content: 'Full'
   }, {
-    topic: 'In the past 24 hours...',
+    topic: 'During the last drinking session...',
+    subtopic: 'Beer type?',
+    content: 'Mid'
+  }, {
+    topic: 'During the last drinking session...',
+    subtopic: 'Beer type?',
+    content: 'Light'
+  }, {
+    topic: 'During the last drinking session...',
+    subtopic: 'Beer type?',
+    content: 'Homebrewed'
+  }, {
+    topic: 'During the last drinking session...',
+    subtopic: '',
+    content: 'Pre-mixed drinks in a can? (Jim Beam & coke, UDLs)'
+  }, {
+    topic: 'During the last drinking session...',
+    subtopic: '',
+    content: 'Pre-mixed drinks in a bottle? (Bacardi Breezer, Lemon Ruski/Stoli)'
+  }, {
+    topic: 'During the last drinking session...',
+    subtopic: '',
+    content: 'Pre-mixed drinks in a cask?'
+  }, {
+    topic: 'During the last drinking session...',
+    subtopic: '',
     content: 'Drank wine?'
   }, {
-    topic: 'In the past 24 hours...',
-    content: 'Drank shots?'
+    topic: 'During the last drinking session...',
+    subtopic: '',
+    content: 'Drank cider?'
   }, {
-    topic: 'In the past 24 hours..',
-    content: 'Went to a pub?'
+    topic: 'During the last drinking session...',
+    subtopic: '',
+    content: 'Drank spirits?'
   }, {
-    topic: 'In the past 24 hours..',
-    content: 'Went to a club?'
-  }, {
-    topic: 'In the past 24 hours..',
-    content: 'Bought a sub?'
-  }, {
-    topic: 'In the past 24 hours..',
-    content: 'Got a shrub?'
+    topic: 'During the last drinking session...',
+    subtopic: '',
+    content: 'Drank liqueur?'
   }
 ];
