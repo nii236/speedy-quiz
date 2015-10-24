@@ -9,6 +9,8 @@ This repo was built for the health hack. It consists of the following technologi
 
 It is used to allow for fast quiz taking, an improvement on the older more clunky way of collecting data.
 
+There will be a bubble chart which has a bubble of the current user. Their responses will affect the size of their bubble.
+
 # Spinup instructions
 
 Clone the repository:
