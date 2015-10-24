@@ -32,6 +32,14 @@ svg.selectAll('circle')
   .attr('r', function(d) { return d.radius; })
   .style('fill', function(d, i) { return color(i % 3); });
 
+svg.selectAll('text')
+    .data(nodes.slice(1))
+    .enter()
+    .append('text')
+    .attr('dx', function(d){d.cx;})
+    .attr('dy', function(d){d.cy;})
+    .text(function(d){return d.label});
+
 force.on('tick', function() {
   var q = d3.geom.quadtree(nodes),
     i = 0,
@@ -43,6 +51,13 @@ force.on('tick', function() {
       .attr('cx', function(d) { return d.x; })
       .attr('cy', function(d) { return d.y; })
       .attr('r', function(d) { return d.radius; });
+
+  svg.selectAll('text')
+      .data(nodes.slice(1))
+      .append('text')
+      .attr('dx', function(d){d.cx})
+      .attr('dy', function(d){d.cy});
+
 });
 
 svg.on('mousemove', function() {
