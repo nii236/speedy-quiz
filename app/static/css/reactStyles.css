@@ -1,0 +1,80 @@
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.Site {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* 1, 3 */
+}
+
+.subtitle {
+  font-size:2em;
+}
+
+body {
+  background:#424242;
+}
+
+.mySwipe {
+  width: 100%;
+  display:block;
+  font-weight:bold;
+  color:#FFFFFF;
+  font-size:5em;
+  text-align: center;
+
+  padding:100px 10px;
+  box-shadow: 0 1px #EBEBEB;
+  background: #0288D1;
+}
+
+.page-header {
+  vertical-align: top;
+  text-align: right;
+  color:#FFFFFF;
+  background: #0288D1;
+  width: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.Instructions {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row /* works with row or column */
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  font-weight:bold;
+  color:#FFFFFF;
+  font-size:2em;
+  text-align:center;
+  margin:10px;
+  padding:10px 10px;
+  box-shadow: 0 1px #EBEBEB;
+  background: #0288D1;
+  border-radius: 3px;
+  border: 3px solid;
+  border-color: #B6B6B6;
+}
+
+.LeftInstruction {
+  text-align: left;
+  flex-grow: 1;
+}
+.RightInstruction {
+  text-align: right:
+  flex-grow: 1;
+}
+
+.topic {
+  font-size:0.3em;
+}
+
+.subtopic {
+  font-size:0.5em;
+}
