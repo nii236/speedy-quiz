@@ -1,12 +1,13 @@
-# React experimenting
+# Speedy Quiz
 
-This is a basic repo for learning purposes. It consists of the following technologies for a purely client side webapp:
+![](http://puu.sh/kVBY7/3220c87fba.png)
+This repo was built for the health hack. It consists of the following technologies for a purely client side webapp:
 
 - React
 - Alt
 - Webpack
 
-A simple low level skeleton code was created from this tutorial.
+It is used to allow for fast quiz taking, an improvement on the older more clunky way of collecting data.
 
 # Spinup instructions
 
