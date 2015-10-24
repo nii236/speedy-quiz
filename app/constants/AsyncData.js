@@ -8,11 +8,11 @@ export const AsyncData = [
   }, {
     topic: 'During the last drinking session...',
     subtopic: 'Beer type?',
-    content: 'Full'
+    content: 'Fullstrength'
   }, {
     topic: 'During the last drinking session...',
     subtopic: 'Beer type?',
-    content: 'Mid'
+    content: 'Midstrength'
   }, {
     topic: 'During the last drinking session...',
     subtopic: 'Beer type?',

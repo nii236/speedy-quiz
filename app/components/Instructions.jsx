@@ -7,7 +7,7 @@ export default class Child extends React.Component {
   }
   render() {
     return(
-      <div className='Instructions'>
+      <div className='Instructions footer'>
         <div className='LeftInstruction'>
           &#8592; No
         </div>

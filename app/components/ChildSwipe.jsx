@@ -44,7 +44,7 @@ export default class ChildSwipe extends React.Component {
             </div>
           </div>
         </Swipeable>
-        <Instructions/>
+
       </div>
     );
   }

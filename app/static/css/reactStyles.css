@@ -1,20 +1,32 @@
-body {
-   margin: 0;
-   padding: 0;
-}
-
-.Site {
-  display: flex;
-  flex-direction: column;
-  height: 100%; /* 1, 3 */
-}
-
 .subtitle {
   font-size:2em;
 }
 
 body {
   background:#424242;
+  display: -webkit-flex;
+  display: flex;
+  min-height: 100vh;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+header, footer {
+  background: #ccc;
+  h1 {
+    padding: 10px;
+    margin: 0;
+  }
+}
+
+#ReactApp {
+  flex: 1;
 }
 
 .mySwipe {
@@ -23,8 +35,9 @@ body {
   font-weight:bold;
   color:#FFFFFF;
   font-size:5em;
+  flex: 1;
   text-align: center;
-
+  height: 40vh;
   padding:100px 10px;
   box-shadow: 0 1px #EBEBEB;
   background: #0288D1;
@@ -43,7 +56,7 @@ body {
 .Instructions {
   display: -webkit-flex;
   display: flex;
-  -webkit-flex-direction: row /* works with row or column */
+  -webkit-flex-direction: row;
   flex-direction: row;
   -webkit-align-items: center;
   align-items: center;
@@ -67,14 +80,18 @@ body {
   flex-grow: 1;
 }
 .RightInstruction {
-  text-align: right:
+  text-align: right;
   flex-grow: 1;
 }
 
 .topic {
-  font-size:0.3em;
+  font-size:0.5em;
 }
 
 .subtopic {
-  font-size:0.5em;
+  font-size:0.7em;
+}
+
+.footer {
+  flex: 1;
 }

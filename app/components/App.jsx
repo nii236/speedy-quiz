@@ -4,6 +4,7 @@ import Store from 'app/stores/Store';
 import Actions from 'app/actions/Actions';
 import ChildSwipe from 'app/components/ChildSwipe';
 import ProgressBar from 'app/components/ProgressBar';
+import Instructions from 'app/components/Instructions';
 export default class App extends React.Component {
   constructor(props) {
     super(props);
@@ -31,6 +32,7 @@ export default class App extends React.Component {
           stores={{Store: Store}}
       >
         <ChildSwipe/>
+        <Instructions/>
         <ProgressBar/>
       </AltContainer>
     );
