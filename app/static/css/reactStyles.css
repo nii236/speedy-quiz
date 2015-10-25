@@ -3,7 +3,7 @@
 }
 
 body {
-  background:#424242;
+  background:#FFFFFF;
   display: -webkit-flex;
   display: flex;
   min-height: 100vh;
@@ -29,17 +29,27 @@ header, footer {
   flex: 1;
 }
 
+#bingePic {
+  flex: 1;
+  height: 40vh;
+}
+
+.progressbar-container {
+  height: 1vh;
+}
 .mySwipe {
   width: 100%;
-  display:block;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
   font-weight:bold;
   color:#FFFFFF;
   font-size:5em;
   flex: 1;
   text-align: center;
-  height: 40vh;
+
   padding:100px 10px;
-  box-shadow: 0 1px #EBEBEB;
+
   background: #0288D1;
 }
 
@@ -51,6 +61,7 @@ header, footer {
   width: 100%;
   margin-top: 0px;
   margin-left: 0px;
+  height: 10vh;
 }
 
 .Instructions {
@@ -66,13 +77,8 @@ header, footer {
   color:#FFFFFF;
   font-size:2em;
   text-align:center;
-  margin:10px;
-  padding:10px 10px;
-  box-shadow: 0 1px #EBEBEB;
   background: #0288D1;
-  border-radius: 3px;
-  border: 3px solid;
-  border-color: #B6B6B6;
+  height: 9vh;
 }
 
 .LeftInstruction {

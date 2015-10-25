@@ -32,8 +32,8 @@ export default class App extends React.Component {
           stores={{Store: Store}}
       >
         <ChildSwipe/>
-        <Instructions/>
         <ProgressBar/>
+        <Instructions/>
       </AltContainer>
     );
   }
