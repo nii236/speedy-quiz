@@ -31,7 +31,7 @@ header, footer {
 
 #bingePic {
   flex: 1;
-  height: 40vh;
+  height: 30vh;
 }
 
 .progressbar-container {
@@ -39,7 +39,7 @@ header, footer {
 }
 .mySwipe {
   width: 100%;
-  height: 40vh;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   font-weight:bold;
