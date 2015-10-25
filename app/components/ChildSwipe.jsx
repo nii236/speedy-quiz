@@ -29,16 +29,8 @@ export default class ChildSwipe extends React.Component {
           onSwipedLeft={this.handleLeft}
         >
           <div className="mySwipe">
-            <div className="topic">
-              <i>
-              {this.props.Store.currentTopic}
-              </i>
-            </div>
-            <div className="subtopic">
-              <i>
-              {this.props.Store.currentSubtopic}
-              </i>
-            </div>
+
+            
             <div className="question">
               {this.props.Store.currentQuestion}
             </div>

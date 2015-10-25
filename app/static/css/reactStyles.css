@@ -26,6 +26,9 @@ header, footer {
 }
 
 #ReactApp {
+  padding: 0px;
+  margin-top: 0px;
+  margin: 0;
   flex: 1;
 }
 
@@ -52,7 +55,7 @@ img.center {
 }
 .mySwipe {
   width: 100%;
-  height: 30vh;
+  height: 20vh;
   display: flex;
   flex-direction: column;
   font-weight:bold;
@@ -74,7 +77,7 @@ img.center {
   width: 100%;
   margin-top: 0px;
   margin-left: 0px;
-  height: 10vh;
+  height: 20vh;
 }
 
 .Instructions {
@@ -104,11 +107,13 @@ img.center {
 }
 
 .topic {
-  font-size:0.5em;
+  font-size:3em;
+  text-align: center;
 }
 
 .subtopic {
-  font-size:0.7em;
+  font-size:4em;
+  text-align: center;
 }
 
 .footer {
