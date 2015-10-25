@@ -11,6 +11,7 @@ class Store {
     this.currentQuestion = '';
     this.currentTopic = '';
     this.currentSubtopic = '';
+    this.currentUrl = '';
     this.completed = 0;
     this.calculateProgress = this.calculateProgress.bind(this);
     this.bindListeners({
@@ -29,6 +30,7 @@ class Store {
     this.currentTopic = this.survey[tempProgress].topic;
     this.currentSubtopic = this.survey[tempProgress].subtopic;
     this.currentQuestion = this.survey[tempProgress].content;
+    this.currentUrl = this.survey[tempProgress].Url;
     this.calculateProgress();
   }
 
@@ -54,7 +56,9 @@ class Store {
     console.log(survey);
     this.survey = survey;
     this.currentQuestion = this.survey[0].content;
+    this.currentSubtopic = this.survey[0].subtopic;
     this.currentTopic = this.survey[0].topic;
+    this.currentUrl = this.survey[0].url;
   }
 
   handleFetchAsyncFailed(errorMessage) {

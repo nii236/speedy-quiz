@@ -5,6 +5,7 @@ import Actions from 'app/actions/Actions';
 import ChildSwipe from 'app/components/ChildSwipe';
 import ProgressBar from 'app/components/ProgressBar';
 import Instructions from 'app/components/Instructions';
+import ImagePane from 'app/components/ImagePane';
 export default class App extends React.Component {
   constructor(props) {
     super(props);
@@ -31,6 +32,7 @@ export default class App extends React.Component {
           actions={{Actions: Actions}}
           stores={{Store: Store}}
       >
+        <ImagePane/>
         <ChildSwipe/>
         <ProgressBar/>
         <Instructions/>

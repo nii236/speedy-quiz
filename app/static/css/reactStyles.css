@@ -29,9 +29,22 @@ header, footer {
   flex: 1;
 }
 
-#bingePic {
+#drinkPicContainer {
   flex: 1;
-  height: 30vh;
+  height: 40vh;
+  width: 100%;
+}
+
+img.resize{
+  width: auto;
+  height: 100%;
+  max-width:100%;
+  max-height:100%;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
 }
 
 .progressbar-container {
